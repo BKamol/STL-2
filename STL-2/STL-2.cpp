@@ -121,8 +121,7 @@ vector<T> task6(vector<T>& a, int k)
     T b0;
     for (int i = 0; i < a.size() - k + 1; i++)
     {
-        b0 = k_mean(a, i, k);
-        b[i] = b0;
+        b[i] = k_mean(a, i, k);
     }
     return b;
 }
